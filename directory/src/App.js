@@ -1,10 +1,12 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+// import { Route } from "react-router-dom";
+import "./App.css";
+import Table from "./components/Table";
 
 function App() {
   return (
-    <div>hi</div>
-  );
-}
+    <Table></Table>
+  )
+};
 
 export default App;

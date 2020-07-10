@@ -3,6 +3,7 @@ import React from "react";
 import "./App.css";
 import Table from "./components/Table";
 import Filter from "./components/Filter";
+import Employee from "./components/Employee";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
     <Filter></Filter>
     <br></br>
     <Table></Table>
+    <br></br>
+    <Employee></Employee>
     </div>
   )
 };

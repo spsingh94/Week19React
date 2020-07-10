@@ -5,16 +5,17 @@ function Table () {
 <table className="table">
   <thead>
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+        {/* Columns */}
+      <th scope="col">Employee_ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Department</th>
+      <th scope="col">Floor</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td>Mark</td>
+      <td>Mark Henry</td>
       <td>Otto</td>
       <td>@mdo</td>
     </tr>
